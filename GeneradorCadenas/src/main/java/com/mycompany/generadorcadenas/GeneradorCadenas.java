@@ -6,11 +6,12 @@ package com.mycompany.generadorcadenas;
 
 /**
  *
- * @author smadero
+ * @author Camilo & Paula
  */
 public class GeneradorCadenas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Manager main = new Manager();
+       main.Menu();
     }
 }
